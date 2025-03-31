@@ -11,12 +11,12 @@ variable "location" {
 }
 
 variable "account_replication_type" {
-  type = string
+  type    = string
   default = "GRS"
 }
 
 variable "account_tier" {
-    type = string
-    default = "standard"
-  
+  type    = string
+  default = "standard"
+
 }
